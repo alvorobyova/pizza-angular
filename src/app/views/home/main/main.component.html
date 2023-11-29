@@ -1,0 +1,61 @@
+<section class="main">
+  <div class="container">
+    <div class="main-info">
+      <h1 class="double-title">Самая вкусная пицца в мире <span>только в Pizza Chef</span></h1>
+      <div class="main-advantages">
+        <div class="advantage">
+          <div class="advantage-image">
+            <img src="../../../../assets/img/hop.png" alt="Пшеница">
+          </div>
+          <div class="advantage-text">
+            <div class="advantage-title">Лучшее тесто</div>
+            <div class="advantage-description">Мы создаем тесто только из отборной итальянской муки
+              наивысшего качества
+            </div>
+          </div>
+        </div>
+        <div class="advantage">
+          <div class="advantage-image">
+            <img src="../../../../assets/img/kitchen-pack.png" alt="Колпак повара">
+          </div>
+          <div class="advantage-text">
+            <div class="advantage-title">Лучшие повара</div>
+            <div class="advantage-description">Пиццы готовят самые профессиональные итальянские повара
+            </div>
+          </div>
+        </div>
+        <div class="advantage">
+          <div class="advantage-image">
+            <img src="../../../../assets/img/guarantee.png" alt="Знак качества">
+          </div>
+          <div class="advantage-text">
+            <div class="advantage-title">Гарантия качества</div>
+            <div class="advantage-description">Наша пиццерия получила множество наград и признаний по всему
+              миру
+            </div>
+          </div>
+        </div>
+        <div class="advantage">
+          <div class="advantage-image">
+            <img src="../../../../assets/img/recipes.png" alt="Блюдо">
+          </div>
+          <div class="advantage-text">
+            <div class="advantage-title">Отборные рецепты</div>
+            <div class="advantage-description">Мы используем рецепты от мировых лидеров в изготовлении
+              пиццы
+            </div>
+          </div>
+        </div>
+        <div class="main-action">
+<!--          <a class="btn" routerLink="/products">Выбрать пиццу</a>-->
+          <a class="btn" (click)="test()">Выбрать пиццу</a>
+        </div>
+      </div>
+    </div>
+    <div class="main-image">
+      <img src="../../../../assets/img/pizza_big.png" alt="Большая пицца">
+    </div>
+  </div>
+</section>
+
+<app-popup [data]="'main'"></app-popup>
